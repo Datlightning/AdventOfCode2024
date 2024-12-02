@@ -16,6 +16,7 @@ def solve():
                 data[val2] += 1
             else:
                 data[val2] = 1
+                
     list1.sort()
     list2.sort()
     sum = 0

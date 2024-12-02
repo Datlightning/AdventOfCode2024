@@ -1,4 +1,4 @@
-import day1.day1 as day
+import day2.day2 as day
 import time as t
 
 time = t.perf_counter()
