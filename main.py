@@ -1,4 +1,4 @@
-import day12.day12 as day
+import day14.day14 as day
 import time as t
 print()
 
