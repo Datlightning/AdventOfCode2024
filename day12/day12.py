@@ -1,4 +1,6 @@
-import dis
+
+from scipy.fftpack import cs_diff
+from sympy import per
 
 
 def display(grid):
@@ -15,26 +17,23 @@ def display(grid, set):
                 current +=v 
         print(current)
 
-def expand(point, l, w, g,v, p1):
+def expand(point, l, w, g,v, p1, perimeter):
     y,x = point
     output = []
     for dy, dx in [(1,0),(-1,0),(0,1),(0,-1)]:
         if 0<=y+dy<w and 0<=x+dx<l and g[y+dy][x+dx] == v:
             output.append((y+dy, x+dx))
         else:
+            #this breaks it for a reason beyond me
+            if (dy,dx) not in perimeter:
+                perimeter[(dy,dx)] = set()
+            perimeter[(dy,dx)].add((y, x))
             p1 += 1
+    # print(p1)
+    # print(output)
     
-    return output, p1
-def calculate_edges(g,w,l):
-    output = 0
-    for y in range(w):
-        
-        for x in range(l):
-            left_pos = (y,x+1)
-            down_pos = (y+1,x)
-            
+    return output, p1, perimeter
 
-    return output
 def solve():
     sum1 = 0  
     sum2 = 0
@@ -51,12 +50,14 @@ def solve():
     # display(g)
     for y, r in enumerate(g):
         for x, v in enumerate(r):
+            # print(v)
             a1 = 0
             p1 = 0
             p2 = 0
             if (y,x) in seen:
                 continue
             q = [(y,x)]
+            perimeter = dict()
             current = set()
             while q:
                 cy,cx = q.pop()
@@ -65,15 +66,42 @@ def solve():
                 seen.add((cy,cx))
                 a1 += 1
                 current.add((cy,cx))
-                expanded, p1 = (expand((cy,cx), l, w,g,v, p1))
+                expanded, p1, perimeter = (expand((cy,cx), l, w,g,v, p1, perimeter))
                 q.extend(expanded)
 
-            display(g, current)
-            p2 = calculate_edges(current,w,l)
-            print(v)
-            print(a1)
-            print(p1)
-            print(p2)
+            #     print("")
+            # display(g, current)
+            # print(v)
+            # print(f"A1: {a1}")
+
+            # print(f"P1: {p1}")
+            p2 = 0
+            for k, points in perimeter.items():
+                # print(k)
+                # print(points)
+                seen_perimeter = set()
+                for y2,x2 in points:
+                    if (y2,x2) not in seen_perimeter:
+                        # seen_perimeter.add((y,x))
+                        p2 += 1
+                        q = [(y2,x2)]
+                        while q:
+                            cy,cx = q.pop()
+                            if (cy,cx) in seen_perimeter:
+                                continue
+                            seen_perimeter.add((cy,cx))
+                            for dy, dx in [(1,0),(-1,0),(0,1),(0,-1)]:
+                                ny = dy + cy
+                                nx = dx + cx
+                                if ((ny,nx) in points):
+                                    q.append((ny,nx))
+
+            
+            # print(f"A1: {a1}")
+
+            # print(f"P1: {p1}")
+
+            # print(f"P2: {p2}")
             sum1 += a1 * p1
             sum2 += a1 * p2
             # print("")
