@@ -1,10 +1,9 @@
-import day15.day15 as day
+import day22.day22 as day
 import time as t
-print()
 
 time = t.perf_counter()
 
-solution = day.solve()
+solution = day.solve(True)
 print(solution)
 
 

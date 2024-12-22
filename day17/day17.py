@@ -54,7 +54,6 @@ def eval_instructions(A, registers, instructions,p2 = False):
                     output_length += 1
                 else:
                     output.append(str(combo_operand % 8))
-
             elif v == 6:
                 num = A
                 B = num//(2**combo_operand)
