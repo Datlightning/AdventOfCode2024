@@ -1,2 +1,2 @@
-Sum 1: 14869099597
-Sum 2: 1717
+Sum 1: 1108
+Sum 2: ab,cp,ep,fj,fl,ij,in,ng,pl,qr,rx,va,vf

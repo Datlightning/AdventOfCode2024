@@ -73,3 +73,5 @@ def solve():
     #         break
     return f"Sum 1: {sum1}\nSum 2: {sum2}"
 
+if __name__ == "__main__":
+    print(solve())
