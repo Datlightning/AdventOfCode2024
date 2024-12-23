@@ -89,7 +89,7 @@ def solve(real_input = True):
     for combo in combos:
         output = "A" + combo 
         for pos, item in enumerate(output[:-1],1):
-            sum1 += int(combo[:-1]) * calculate_cost(item, output[pos], False, 2)      
+            sum1+= int(combo[:-1]) * calculate_cost(item, output[pos], False, 2)      
             sum2 += int(combo[:-1]) * calculate_cost(item, output[pos], False, 25)   
     #205160 is what we need in life
     
