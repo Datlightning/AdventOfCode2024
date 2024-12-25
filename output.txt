@@ -1,2 +1,2 @@
-Sum 1: 1108
-Sum 2: ab,cp,ep,fj,fl,ij,in,ng,pl,qr,rx,va,vf
+Part 1: 3136
+Part 2: 0

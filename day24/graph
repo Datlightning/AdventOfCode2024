@@ -1,0 +1,1112 @@
+graph {
+	mvb
+	sjd
+	mcr
+	sjd -- mvb [label=AND]
+	mcr -- mvb [label=AND]
+	kdf
+	mhq
+	phj
+	mhq -- kdf [label=OR]
+	phj -- kdf [label=OR]
+	qhk
+	rrh
+	bbb
+	rrh -- qhk [label=OR]
+	bbb -- qhk [label=OR]
+	gjm
+	y30
+	x30
+	y30 -- gjm [label=AND]
+	x30 -- gjm [label=AND]
+	z36
+	vvt
+	pbd
+	vvt -- z36 [label=XOR]
+	pbd -- z36 [label=XOR]
+	z19
+	nws
+	pqv
+	nws -- z19 [label=XOR]
+	pqv -- z19 [label=XOR]
+	fmk
+	jjf
+	bdd
+	jjf -- fmk [label=OR]
+	bdd -- fmk [label=OR]
+	z18
+	fmm
+	mfk
+	fmm -- z18 [label=XOR]
+	mfk -- z18 [label=XOR]
+	nfq
+	x13
+	y13
+	x13 -- nfq [label=XOR]
+	y13 -- nfq [label=XOR]
+	qtg
+	tnr
+	rtb
+	tnr -- qtg [label=AND]
+	rtb -- qtg [label=AND]
+	z28
+	mgv
+	scd
+	mgv -- z28 [label=XOR]
+	scd -- z28 [label=XOR]
+	wfr
+	tdq
+	bwk
+	tdq -- wfr [label=OR]
+	bwk -- wfr [label=OR]
+	hhg
+	x33
+	y33
+	x33 -- hhg [label=XOR]
+	y33 -- hhg [label=XOR]
+	tcf
+	x04
+	y04
+	x04 -- tcf [label=XOR]
+	y04 -- tcf [label=XOR]
+	hmb
+	x22
+	y22
+	x22 -- hmb [label=AND]
+	y22 -- hmb [label=AND]
+	z30
+	dpg
+	rqd
+	dpg -- z30 [label=XOR]
+	rqd -- z30 [label=XOR]
+	qhh
+	y41
+	x41
+	y41 -- qhh [label=XOR]
+	x41 -- qhh [label=XOR]
+	hrn
+	y37
+	x37
+	y37 -- hrn [label=XOR]
+	x37 -- hrn [label=XOR]
+	wss
+	y18
+	x18
+	y18 -- wss [label=AND]
+	x18 -- wss [label=AND]
+	pjf
+	y26
+	x26
+	y26 -- pjf [label=XOR]
+	x26 -- pjf [label=XOR]
+	kmj
+	mgk
+	rkf
+	mgk -- kmj [label=AND]
+	rkf -- kmj [label=AND]
+	z10
+	kdf
+	pvk
+	kdf -- z10 [label=XOR]
+	pvk -- z10 [label=XOR]
+	dcv
+	rds
+	scs
+	rds -- dcv [label=AND]
+	scs -- dcv [label=AND]
+	vhf
+	y17
+	x17
+	y17 -- vhf [label=XOR]
+	x17 -- vhf [label=XOR]
+	jrj
+	vvt
+	pbd
+	vvt -- jrj [label=AND]
+	pbd -- jrj [label=AND]
+	scs
+	pdq
+	hmt
+	pdq -- scs [label=OR]
+	hmt -- scs [label=OR]
+	mcr
+	y08
+	x08
+	y08 -- mcr [label=XOR]
+	x08 -- mcr [label=XOR]
+	pdq
+	x13
+	y13
+	x13 -- pdq [label=AND]
+	y13 -- pdq [label=AND]
+	z31
+	tkf
+	bvv
+	tkf -- z31 [label=XOR]
+	bvv -- z31 [label=XOR]
+	fmj
+	jvw
+	wwr
+	jvw -- fmj [label=OR]
+	wwr -- fmj [label=OR]
+	kpt
+	fgc
+	jvg
+	fgc -- kpt [label=AND]
+	jvg -- kpt [label=AND]
+	z20
+	qpn
+	gtd
+	qpn -- z20 [label=XOR]
+	gtd -- z20 [label=XOR]
+	z15
+	cnb
+	tsg
+	cnb -- z15 [label=XOR]
+	tsg -- z15 [label=XOR]
+	rrh
+	tsg
+	cnb
+	tsg -- rrh [label=AND]
+	cnb -- rrh [label=AND]
+	cvn
+	x16
+	y16
+	x16 -- cvn [label=XOR]
+	y16 -- cvn [label=XOR]
+	fwj
+	y23
+	x23
+	y23 -- fwj [label=AND]
+	x23 -- fwj [label=AND]
+	sgh
+	nwd
+	hqb
+	nwd -- sgh [label=OR]
+	hqb -- sgh [label=OR]
+	fpf
+	y40
+	x40
+	y40 -- fpf [label=AND]
+	x40 -- fpf [label=AND]
+	z16
+	qhk
+	cvn
+	qhk -- z16 [label=XOR]
+	cvn -- z16 [label=XOR]
+	dkm
+	tkf
+	bvv
+	tkf -- dkm [label=AND]
+	bvv -- dkm [label=AND]
+	mvj
+	bvj
+	gcv
+	bvj -- mvj [label=OR]
+	gcv -- mvj [label=OR]
+	fpq
+	y35
+	x35
+	y35 -- fpq [label=XOR]
+	x35 -- fpq [label=XOR]
+	npv
+	vhm
+	pjf
+	vhm -- npv [label=AND]
+	pjf -- npv [label=AND]
+	prf
+	y35
+	x35
+	y35 -- prf [label=AND]
+	x35 -- prf [label=AND]
+	cdf
+	x26
+	y26
+	x26 -- cdf [label=AND]
+	y26 -- cdf [label=AND]
+	hmt
+	fmk
+	nfq
+	fmk -- hmt [label=AND]
+	nfq -- hmt [label=AND]
+	gtd
+	x20
+	y20
+	x20 -- gtd [label=XOR]
+	y20 -- gtd [label=XOR]
+	wch
+	pwv
+	wwn
+	pwv -- wch [label=OR]
+	wwn -- wch [label=OR]
+	pqv
+	x19
+	y19
+	x19 -- pqv [label=XOR]
+	y19 -- pqv [label=XOR]
+	wwn
+	y38
+	x38
+	y38 -- wwn [label=AND]
+	x38 -- wwn [label=AND]
+	z32
+	shr
+	mvk
+	shr -- z32 [label=XOR]
+	mvk -- z32 [label=XOR]
+	tdq
+	scd
+	mgv
+	scd -- tdq [label=AND]
+	mgv -- tdq [label=AND]
+	z23
+	bpr
+	qmd
+	bpr -- z23 [label=XOR]
+	qmd -- z23 [label=XOR]
+	fgn
+	x16
+	y16
+	x16 -- fgn [label=AND]
+	y16 -- fgn [label=AND]
+	bdd
+	x12
+	y12
+	x12 -- bdd [label=AND]
+	y12 -- bdd [label=AND]
+	grd
+	x27
+	y27
+	x27 -- grd [label=AND]
+	y27 -- grd [label=AND]
+	cws
+	scr
+	sfr
+	scr -- cws [label=AND]
+	sfr -- cws [label=AND]
+	jrs
+	qtk
+	jrj
+	qtk -- jrs [label=OR]
+	jrj -- jrs [label=OR]
+	nws
+	wss
+	shw
+	wss -- nws [label=OR]
+	shw -- nws [label=OR]
+	fmm
+	x18
+	y18
+	x18 -- fmm [label=XOR]
+	y18 -- fmm [label=XOR]
+	fmp
+	x24
+	y24
+	x24 -- fmp [label=AND]
+	y24 -- fmp [label=AND]
+	jjf
+	snr
+	rbp
+	snr -- jjf [label=AND]
+	rbp -- jjf [label=AND]
+	rbp
+	x12
+	y12
+	x12 -- rbp [label=XOR]
+	y12 -- rbp [label=XOR]
+	jwd
+	wqk
+	bmn
+	wqk -- jwd [label=AND]
+	bmn -- jwd [label=AND]
+	tgn
+	hjm
+	qgd
+	hjm -- tgn [label=AND]
+	qgd -- tgn [label=AND]
+	nmn
+	y03
+	x03
+	y03 -- nmn [label=AND]
+	x03 -- nmn [label=AND]
+	z06
+	qgd
+	hjm
+	qgd -- z06 [label=XOR]
+	hjm -- z06 [label=XOR]
+	rjm
+	x21
+	y21
+	x21 -- rjm [label=AND]
+	y21 -- rjm [label=AND]
+	rmp
+	x19
+	y19
+	x19 -- rmp [label=AND]
+	y19 -- rmp [label=AND]
+	rpw
+	x11
+	y11
+	x11 -- rpw [label=AND]
+	y11 -- rpw [label=AND]
+	dpb
+	x33
+	y33
+	x33 -- dpb [label=AND]
+	y33 -- dpb [label=AND]
+	snp
+	jbg
+	mvf
+	jbg -- snp [label=AND]
+	mvf -- snp [label=AND]
+	mvf
+	x27
+	y27
+	x27 -- mvf [label=XOR]
+	y27 -- mvf [label=XOR]
+	z43
+	tsw
+	mvj
+	tsw -- z43 [label=XOR]
+	mvj -- z43 [label=XOR]
+	ggn
+	y34
+	x34
+	y34 -- ggn [label=XOR]
+	x34 -- ggn [label=XOR]
+	z34
+	ggn
+	smq
+	ggn -- z34 [label=XOR]
+	smq -- z34 [label=XOR]
+	rds
+	y14
+	x14
+	y14 -- rds [label=XOR]
+	x14 -- rds [label=XOR]
+	rmb
+	fpf
+	cws
+	fpf -- rmb [label=OR]
+	cws -- rmb [label=OR]
+	qtk
+	x36
+	y36
+	x36 -- qtk [label=AND]
+	y36 -- qtk [label=AND]
+	ssh
+	x42
+	y42
+	x42 -- ssh [label=XOR]
+	y42 -- ssh [label=XOR]
+	vvt
+	prf
+	cdv
+	prf -- vvt [label=OR]
+	cdv -- vvt [label=OR]
+	wqk
+	y24
+	x24
+	y24 -- wqk [label=XOR]
+	x24 -- wqk [label=XOR]
+	wng
+	smq
+	ggn
+	smq -- wng [label=AND]
+	ggn -- wng [label=AND]
+	vvf
+	fmj
+	msq
+	fmj -- vvf [label=AND]
+	msq -- vvf [label=AND]
+	jvg
+	jwd
+	fmp
+	jwd -- jvg [label=OR]
+	fmp -- jvg [label=OR]
+	z14
+	rds
+	scs
+	rds -- z14 [label=XOR]
+	scs -- z14 [label=XOR]
+	vmq
+	x17
+	y17
+	x17 -- vmq [label=AND]
+	y17 -- vmq [label=AND]
+	rwp
+	kmj
+	nfw
+	kmj -- rwp [label=OR]
+	nfw -- rwp [label=OR]
+	shr
+	hgm
+	dkm
+	hgm -- shr [label=OR]
+	dkm -- shr [label=OR]
+	hgm
+	y31
+	x31
+	y31 -- hgm [label=AND]
+	x31 -- hgm [label=AND]
+	rqd
+	mtg
+	tht
+	mtg -- rqd [label=OR]
+	tht -- rqd [label=OR]
+	wwr
+	y02
+	x02
+	y02 -- wwr [label=AND]
+	x02 -- wwr [label=AND]
+	bck
+	rcg
+	qfj
+	rcg -- bck [label=AND]
+	qfj -- bck [label=AND]
+	z45
+	nhn
+	vrk
+	nhn -- z45 [label=OR]
+	vrk -- z45 [label=OR]
+	bwk
+	y28
+	x28
+	y28 -- bwk [label=AND]
+	x28 -- bwk [label=AND]
+	z44
+	sgh
+	pvc
+	sgh -- z44 [label=XOR]
+	pvc -- z44 [label=XOR]
+	gqk
+	y29
+	x29
+	y29 -- gqk [label=XOR]
+	x29 -- gqk [label=XOR]
+	bmn
+	vsq
+	fwj
+	vsq -- bmn [label=OR]
+	fwj -- bmn [label=OR]
+	pbd
+	y36
+	x36
+	y36 -- pbd [label=XOR]
+	x36 -- pbd [label=XOR]
+	wdc
+	x08
+	y08
+	x08 -- wdc [label=AND]
+	y08 -- wdc [label=AND]
+	mgc
+	x41
+	y41
+	x41 -- mgc [label=AND]
+	y41 -- mgc [label=AND]
+	z35
+	fpq
+	prv
+	fpq -- z35 [label=XOR]
+	prv -- z35 [label=XOR]
+	qfj
+	mcv
+	cjw
+	mcv -- qfj [label=OR]
+	cjw -- qfj [label=OR]
+	z03
+	fmj
+	msq
+	fmj -- z03 [label=XOR]
+	msq -- z03 [label=XOR]
+	snr
+	rpw
+	mqw
+	rpw -- snr [label=OR]
+	mqw -- snr [label=OR]
+	mqb
+	hrw
+	kqp
+	hrw -- mqb [label=OR]
+	kqp -- mqb [label=OR]
+	tsw
+	x43
+	y43
+	x43 -- tsw [label=XOR]
+	y43 -- tsw [label=XOR]
+	z39
+	brj
+	wch
+	brj -- z39 [label=XOR]
+	wch -- z39 [label=XOR]
+	scr
+	x40
+	y40
+	x40 -- scr [label=XOR]
+	y40 -- scr [label=XOR]
+	kfr
+	x02
+	y02
+	x02 -- kfr [label=XOR]
+	y02 -- kfr [label=XOR]
+	tkf
+	x31
+	y31
+	x31 -- tkf [label=XOR]
+	y31 -- tkf [label=XOR]
+	jss
+	y14
+	x14
+	y14 -- jss [label=AND]
+	x14 -- jss [label=AND]
+	rcq
+	wrk
+	jrp
+	wrk -- rcq [label=OR]
+	jrp -- rcq [label=OR]
+	qpn
+	npb
+	rmp
+	npb -- qpn [label=OR]
+	rmp -- qpn [label=OR]
+	dpg
+	y30
+	x30
+	y30 -- dpg [label=XOR]
+	x30 -- dpg [label=XOR]
+	cnb
+	x15
+	y15
+	x15 -- cnb [label=XOR]
+	y15 -- cnb [label=XOR]
+	mgv
+	grd
+	snp
+	grd -- mgv [label=OR]
+	snp -- mgv [label=OR]
+	qtw
+	y07
+	x07
+	y07 -- qtw [label=AND]
+	x07 -- qtw [label=AND]
+	z13
+	nfq
+	fmk
+	nfq -- z13 [label=XOR]
+	fmk -- z13 [label=XOR]
+	qns
+	y22
+	x22
+	y22 -- qns [label=XOR]
+	x22 -- qns [label=XOR]
+	mqw
+	rcq
+	ngc
+	rcq -- mqw [label=AND]
+	ngc -- mqw [label=AND]
+	z24
+	wqk
+	bmn
+	wqk -- z24 [label=XOR]
+	bmn -- z24 [label=XOR]
+	scd
+	y28
+	x28
+	y28 -- scd [label=XOR]
+	x28 -- scd [label=XOR]
+	mgk
+	x00
+	y00
+	x00 -- mgk [label=AND]
+	y00 -- mgk [label=AND]
+	qfp
+	cpm
+	fgn
+	cpm -- qfp [label=OR]
+	fgn -- qfp [label=OR]
+	sjd
+	qtw
+	qtg
+	qtw -- sjd [label=OR]
+	qtg -- sjd [label=OR]
+	vsq
+	qmd
+	bpr
+	qmd -- vsq [label=AND]
+	bpr -- vsq [label=AND]
+	shf
+	y06
+	x06
+	y06 -- shf [label=AND]
+	x06 -- shf [label=AND]
+	npb
+	nws
+	pqv
+	nws -- npb [label=AND]
+	pqv -- npb [label=AND]
+	z26
+	vhm
+	pjf
+	vhm -- z26 [label=XOR]
+	pjf -- z26 [label=XOR]
+	rpg
+	x09
+	y09
+	x09 -- rpg [label=XOR]
+	y09 -- rpg [label=XOR]
+	mtg
+	gqk
+	wfr
+	gqk -- mtg [label=AND]
+	wfr -- mtg [label=AND]
+	z09
+	ggm
+	rpg
+	ggm -- z09 [label=XOR]
+	rpg -- z09 [label=XOR]
+	fgc
+	y25
+	x25
+	y25 -- fgc [label=XOR]
+	x25 -- fgc [label=XOR]
+	z22
+	qtq
+	qns
+	qtq -- z22 [label=XOR]
+	qns -- z22 [label=XOR]
+	gcv
+	y42
+	x42
+	y42 -- gcv [label=AND]
+	x42 -- gcv [label=AND]
+	hrw
+	mvk
+	shr
+	mvk -- hrw [label=AND]
+	shr -- hrw [label=AND]
+	z37
+	hrn
+	jrs
+	hrn -- z37 [label=XOR]
+	jrs -- z37 [label=XOR]
+	bvj
+	vcr
+	ssh
+	vcr -- bvj [label=AND]
+	ssh -- bvj [label=AND]
+	ggm
+	wdc
+	mvb
+	wdc -- ggm [label=OR]
+	mvb -- ggm [label=OR]
+	ksj
+	qns
+	qtq
+	qns -- ksj [label=AND]
+	qtq -- ksj [label=AND]
+	vcr
+	fgh
+	mgc
+	fgh -- vcr [label=OR]
+	mgc -- vcr [label=OR]
+	z05
+	rcg
+	qfj
+	rcg -- z05 [label=XOR]
+	qfj -- z05 [label=XOR]
+	z08
+	mcr
+	sjd
+	mcr -- z08 [label=XOR]
+	sjd -- z08 [label=XOR]
+	kqp
+	x32
+	y32
+	x32 -- kqp [label=AND]
+	y32 -- kqp [label=AND]
+	bwc
+	hhg
+	mqb
+	hhg -- bwc [label=AND]
+	mqb -- bwc [label=AND]
+	nwd
+	mvj
+	tsw
+	mvj -- nwd [label=AND]
+	tsw -- nwd [label=AND]
+	nfw
+	y01
+	x01
+	y01 -- nfw [label=AND]
+	x01 -- nfw [label=AND]
+	z21
+	mhv
+	gkw
+	mhv -- z21 [label=XOR]
+	gkw -- z21 [label=XOR]
+	ncp
+	nmn
+	vvf
+	nmn -- ncp [label=OR]
+	vvf -- ncp [label=OR]
+	rcg
+	x05
+	y05
+	x05 -- rcg [label=XOR]
+	y05 -- rcg [label=XOR]
+	z33
+	hhg
+	mqb
+	hhg -- z33 [label=XOR]
+	mqb -- z33 [label=XOR]
+	cpm
+	cvn
+	qhk
+	cvn -- cpm [label=AND]
+	qhk -- cpm [label=AND]
+	chf
+	kdk
+	kdv
+	kdk -- chf [label=OR]
+	kdv -- chf [label=OR]
+	z40
+	sfr
+	scr
+	sfr -- z40 [label=XOR]
+	scr -- z40 [label=XOR]
+	z38
+	chf
+	djs
+	chf -- z38 [label=XOR]
+	djs -- z38 [label=XOR]
+	cjw
+	tcf
+	ncp
+	tcf -- cjw [label=AND]
+	ncp -- cjw [label=AND]
+	jrp
+	kdf
+	pvk
+	kdf -- jrp [label=AND]
+	pvk -- jrp [label=AND]
+	pvk
+	x10
+	y10
+	x10 -- pvk [label=XOR]
+	y10 -- pvk [label=XOR]
+	jbg
+	npv
+	cdf
+	npv -- jbg [label=OR]
+	cdf -- jbg [label=OR]
+	z01
+	mgk
+	rkf
+	mgk -- z01 [label=XOR]
+	rkf -- z01 [label=XOR]
+	pvc
+	x44
+	y44
+	x44 -- pvc [label=XOR]
+	y44 -- pvc [label=XOR]
+	z07
+	tnr
+	rtb
+	tnr -- z07 [label=XOR]
+	rtb -- z07 [label=XOR]
+	bpr
+	hmb
+	ksj
+	hmb -- bpr [label=OR]
+	ksj -- bpr [label=OR]
+	kdv
+	jrs
+	hrn
+	jrs -- kdv [label=AND]
+	hrn -- kdv [label=AND]
+	rtb
+	y07
+	x07
+	y07 -- rtb [label=XOR]
+	x07 -- rtb [label=XOR]
+	fgh
+	rmb
+	qhh
+	rmb -- fgh [label=AND]
+	qhh -- fgh [label=AND]
+	djs
+	x38
+	y38
+	x38 -- djs [label=XOR]
+	y38 -- djs [label=XOR]
+	qmr
+	x34
+	y34
+	x34 -- qmr [label=AND]
+	y34 -- qmr [label=AND]
+	rkf
+	y01
+	x01
+	y01 -- rkf [label=XOR]
+	x01 -- rkf [label=XOR]
+	pwv
+	chf
+	djs
+	chf -- pwv [label=AND]
+	djs -- pwv [label=AND]
+	z25
+	fgc
+	jvg
+	fgc -- z25 [label=XOR]
+	jvg -- z25 [label=XOR]
+	jvw
+	rwp
+	kfr
+	rwp -- jvw [label=AND]
+	kfr -- jvw [label=AND]
+	z02
+	kfr
+	rwp
+	kfr -- z02 [label=XOR]
+	rwp -- z02 [label=XOR]
+	qgt
+	gtd
+	qpn
+	gtd -- qgt [label=AND]
+	qpn -- qgt [label=AND]
+	vrk
+	pvc
+	sgh
+	pvc -- vrk [label=AND]
+	sgh -- vrk [label=AND]
+	ngc
+	x11
+	y11
+	x11 -- ngc [label=XOR]
+	y11 -- ngc [label=XOR]
+	vhm
+	tqk
+	kpt
+	tqk -- vhm [label=OR]
+	kpt -- vhm [label=OR]
+	prv
+	qmr
+	wng
+	qmr -- prv [label=OR]
+	wng -- prv [label=OR]
+	tnr
+	tgn
+	shf
+	tgn -- tnr [label=OR]
+	shf -- tnr [label=OR]
+	qmd
+	y23
+	x23
+	y23 -- qmd [label=XOR]
+	x23 -- qmd [label=XOR]
+	msq
+	x03
+	y03
+	x03 -- msq [label=XOR]
+	y03 -- msq [label=XOR]
+	hjm
+	qtn
+	bck
+	qtn -- hjm [label=OR]
+	bck -- hjm [label=OR]
+	dvk
+	mhv
+	gkw
+	mhv -- dvk [label=AND]
+	gkw -- dvk [label=AND]
+	kdk
+	x37
+	y37
+	x37 -- kdk [label=AND]
+	y37 -- kdk [label=AND]
+	hqb
+	x43
+	y43
+	x43 -- hqb [label=AND]
+	y43 -- hqb [label=AND]
+	phj
+	x09
+	y09
+	x09 -- phj [label=AND]
+	y09 -- phj [label=AND]
+	z41
+	qhh
+	rmb
+	qhh -- z41 [label=XOR]
+	rmb -- z41 [label=XOR]
+	nhn
+	y44
+	x44
+	y44 -- nhn [label=AND]
+	x44 -- nhn [label=AND]
+	gkw
+	qgt
+	phf
+	qgt -- gkw [label=OR]
+	phf -- gkw [label=OR]
+	mfk
+	jvq
+	vmq
+	jvq -- mfk [label=OR]
+	vmq -- mfk [label=OR]
+	mhq
+	rpg
+	ggm
+	rpg -- mhq [label=AND]
+	ggm -- mhq [label=AND]
+	qtn
+	x05
+	y05
+	x05 -- qtn [label=AND]
+	y05 -- qtn [label=AND]
+	smq
+	dpb
+	bwc
+	dpb -- smq [label=OR]
+	bwc -- smq [label=OR]
+	phf
+	x20
+	y20
+	x20 -- phf [label=AND]
+	y20 -- phf [label=AND]
+	pps
+	dpg
+	rqd
+	dpg -- pps [label=AND]
+	rqd -- pps [label=AND]
+	mwm
+	brj
+	wch
+	brj -- mwm [label=AND]
+	wch -- mwm [label=AND]
+	mcv
+	y04
+	x04
+	y04 -- mcv [label=AND]
+	x04 -- mcv [label=AND]
+	shw
+	fmm
+	mfk
+	fmm -- shw [label=AND]
+	mfk -- shw [label=AND]
+	z42
+	vcr
+	ssh
+	vcr -- z42 [label=XOR]
+	ssh -- z42 [label=XOR]
+	tsg
+	jss
+	dcv
+	jss -- tsg [label=OR]
+	dcv -- tsg [label=OR]
+	bvv
+	gjm
+	pps
+	gjm -- bvv [label=OR]
+	pps -- bvv [label=OR]
+	z29
+	wfr
+	gqk
+	wfr -- z29 [label=XOR]
+	gqk -- z29 [label=XOR]
+	z12
+	rbp
+	snr
+	rbp -- z12 [label=XOR]
+	snr -- z12 [label=XOR]
+	tht
+	y29
+	x29
+	y29 -- tht [label=AND]
+	x29 -- tht [label=AND]
+	wrk
+	x10
+	y10
+	x10 -- wrk [label=AND]
+	y10 -- wrk [label=AND]
+	z00
+	y00
+	x00
+	y00 -- z00 [label=XOR]
+	x00 -- z00 [label=XOR]
+	z17
+	vhf
+	qfp
+	vhf -- z17 [label=XOR]
+	qfp -- z17 [label=XOR]
+	z04
+	ncp
+	tcf
+	ncp -- z04 [label=XOR]
+	tcf -- z04 [label=XOR]
+	jvq
+	qfp
+	vhf
+	qfp -- jvq [label=AND]
+	vhf -- jvq [label=AND]
+	qtq
+	rjm
+	dvk
+	rjm -- qtq [label=OR]
+	dvk -- qtq [label=OR]
+	z27
+	jbg
+	mvf
+	jbg -- z27 [label=XOR]
+	mvf -- z27 [label=XOR]
+	z11
+	rcq
+	ngc
+	rcq -- z11 [label=XOR]
+	ngc -- z11 [label=XOR]
+	qgd
+	y06
+	x06
+	y06 -- qgd [label=XOR]
+	x06 -- qgd [label=XOR]
+	cdv
+	prv
+	fpq
+	prv -- cdv [label=AND]
+	fpq -- cdv [label=AND]
+	bbb
+	y15
+	x15
+	y15 -- bbb [label=AND]
+	x15 -- bbb [label=AND]
+	tqk
+	y25
+	x25
+	y25 -- tqk [label=AND]
+	x25 -- tqk [label=AND]
+	mvk
+	y32
+	x32
+	y32 -- mvk [label=XOR]
+	x32 -- mvk [label=XOR]
+	dpd
+	x39
+	y39
+	x39 -- dpd [label=AND]
+	y39 -- dpd [label=AND]
+	brj
+	x39
+	y39
+	x39 -- brj [label=XOR]
+	y39 -- brj [label=XOR]
+	mhv
+	y21
+	x21
+	y21 -- mhv [label=XOR]
+	x21 -- mhv [label=XOR]
+	sfr
+	mwm
+	dpd
+	mwm -- sfr [label=OR]
+	dpd -- sfr [label=OR]
+}
